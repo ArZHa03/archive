@@ -15,9 +15,7 @@ To use this package, add `archive` as a dependency in your `pubspec.yaml` file.
 ```yaml
 dependencies:
   archive:
-    git:
-      url: https://github.com/your-repo/archive.git
-      ref: main
+    git: https://github.com/ArZHa03/archive.git
 ```
 
 ## Usage
@@ -48,11 +46,3 @@ void main() {
   print(unpackedData); // Output: Hello, World!
 }
 ```
-
-## Additional information
-
-For more information, please refer to the [documentation](https://dart.dev/tools/pub/writing-package-pages).
-
-To contribute to this package, please create a pull request on the [GitHub repository](https://github.com/your-repo/archive).
-
-If you encounter any issues, please file an issue on the [GitHub repository](https://github.com/your-repo/archive/issues).
